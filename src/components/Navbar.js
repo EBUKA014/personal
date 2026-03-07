@@ -18,8 +18,13 @@ export default function Navbar() {
           
           {/* Logo Area */}
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="text-xl font-bold text-gray-900 tracking-tight">
-              BrandLogo
+            <Link href="/" className="flex items-center space-x-2">
+              <img
+                src="https://res.cloudinary.com/dlobssaht/image/upload/v1772925405/Computer_repair_service_logo_design-removebg-preview_as7lfn.png"
+                alt="smartech logo"
+                className="h-8 w-auto"
+              />
+              <span className="text-xl font-bold text-gray-900 tracking-tight">smartech</span>
             </Link>
           </div>
 
